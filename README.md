@@ -1,37 +1,29 @@
-# GameHub
+# Game hub
 
-GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more. 
+- Open your terminal and clone this repository
+    
+    First make sure you have a ssh key if you dont have go to my dotfiles repository and follow the instructions
 
-This is the project we build in my Ultimate React course. You can find the full course at: https://codewithmosh.com 
+    ```
+    git clone git@github.com:ayushkpai/game-hub.git
+    ```
 
-## Getting Started
+- Next install type script and node.js
 
-To get started with GameHub, follow these steps:
+    Also documented in dotfiles
 
+- Api key
 
-1. Clone this repository to your local machine.
-2. Run `npm install` to install the required dependencies.
-3. Get a RAWG API key at https://rawg.io/apidocs. You'll have to create an account first. 
-4. Add the API key to **src/services/api-client.ts**
-5. Run `npm run dev` to start the web server. 
+    You need an rawg api key for this project for ferching the games so go to [rawg website](https://rawg.io) and create an api key
 
-## About the Course 
+- Add the key
 
-I have designed this course to teach you everything you need to know to become a proficient React developer. This course is the first part of a two-part series, covering the fundamentals. You'll learn how to:
+    ```
+    echo <your_rawg_api_key> >> .env
+    ```
 
-- Build front-end apps with React and TypeScript
-- Build reusable function components
-- Style your components using vanilla CSS, CSS modules, and CSS-in-JS
-- Manage component state
-- Build forms with React Hook Forms
-- Implement form validation using Zod
-- Connect your React apps to the backend
-- Deploy your React apps
-- Use VSCode shortcuts to increase your productivity
-- Write clean code like a pro
-- Apply best practices
+- To run the project
 
-
-By the end of this course, you'll have a solid understanding of React and be able to build real-world applications with React and TypeScript.
-
-You can find the full course at: https://codewithmosh.com 
+    ```
+    npm run dev
+    ```
