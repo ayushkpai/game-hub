@@ -40,8 +40,8 @@ const GenreList = () => {
                 textAlign="left"
                 fontWeight={
                   genre.id === selectedGenreId
-                    ? 'bold'
-                    : 'normal'
+                    ? "bold"
+                    : "normal"
                 }
                 onClick={() => setSelectedGenreId(genre.id)}
                 fontSize="md"

@@ -13,8 +13,8 @@ const HomePage = () => {
       lg: `"aside main"`,
     }}
     templateColumns={{
-      base: '1fr',
-      lg: '250px 1fr',
+      base: "1fr",
+      lg: "250px 1fr",
     }}
   >
     <Show above="lg">
